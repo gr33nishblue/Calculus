@@ -1,2 +1,1 @@
-# test
-This is a calculator
+This is a simple calculator
