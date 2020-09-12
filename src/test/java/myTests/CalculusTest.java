@@ -80,4 +80,22 @@ public class CalculusTest {
         assertEquals(calculus.multiply(a, b), a*b);
     }
 
+    @Test
+    public void divideTest() {
+        Calculus calculus = new Calculus();
+        double variable = 2.5;
+        assertEquals(variable,calculus.divideFloat(5, 2));
+    }
+
+    @Test
+    public void moduloTest() {
+        Calculus calculus = new Calculus();
+        assertEquals(1,calculus.modulo(5, 2));
+    }
+
+    @Test
+    public void squareRootTest() {
+        Calculus calculus = new Calculus();
+        assertEquals(4,calculus.root(25));
+    }
 }
